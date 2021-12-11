@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulary</title>
+    </head>
+    
+    <body>
+        <fieldset>
+            <legend><b>Register</b></legend>
+            <form action="" method="post" enctype="multipart/form-data">
+                
+                <div>
+                <b>Name</b><br>
+                <input type="text" class="name-input" required>
+                </div>
+                <br>
+                
+                <div>
+                    <b>Email</b><br>
+                    <input type="email" class="email-input" required>
+                </div>
+                <br>
+
+                <div>
+                    <b>Age</b><br>
+                    <input type="number" class="age-input" min="12" width="40px" required>
+                </div>
+                <br>
+
+                <div>
+                    <b>Birth date</b><br>
+                    <input type="date" class="date-input" required>
+                </div>
+                <br>
+
+                <div>
+                    <p><b>Where do you have account?</b></p>
+                    <input type="checkbox" class="ig-input">Instagram
+                    <input type="checkbox" class="fb-input">Facebook
+                    <input type="checkbox" class="yt-input">Youtube
+                </div>
+
+                <div>
+                    <p><b>Sex</b></p>
+                    <input type="radio" class="sex-input">Masculine
+                    <input type="radio" class="sex-input">Female
+                </div>
+                <br>
+                
+                <div>
+                    <b>Eye color</b><br>
+                    <input type="color" class="eye-input" required>
+                </div>
+                <br>
+                
+                <div>
+                    <b>Biography</b><br>
+                    <textarea placeholder="Write about you" class="biograph-input" required></textarea>
+                </div>
+                <br>
+                
+                <div>
+                    <b>Profile picture</b><br>
+                    <input type="file" accept="image/*" class="picture-input">
+                </div>
+                <br>
+
+                <div>
+                    <b>Phone number</b><br>
+                    <input type="tel" class="phone-input" required>
+                </div>
+                <br>
+                
+                <div>
+                    <b>Facebook link</b><br>
+                    <input type="url" class="linkedin-input">
+                </div>
+                <br>
+                
+                <div>
+                    <b>Password</b><br>
+                    <input type="password" minlength="6" maxlength="8" required>
+                </div>
+                <br>
+                <div>
+                    <button type="reset">To clear</button>
+                    <button type="submit">Send data</button>
+                </div>
+            
+            </form>
+        </fieldset>
+    </body>
+</html>
